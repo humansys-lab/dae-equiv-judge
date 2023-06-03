@@ -1,0 +1,18 @@
+\begin{equation}
+  \begin{aligned}
+    k_{i}                & = a_{i}\exp(-\frac{E_{i}}{R T_{R}})
+    \\
+    \frac{d}{dt}C_{T}(t) & = - k_{1}C_{O}C_{T}(t)C_{A}(t) + k_{2}C_{O}C_{D}(t)C_{E}(t)
+    \\
+    \frac{d}{dt}C_{D}(t) & = k_{1}C_{O}C_{T}(t)C_{A}(t) - k_{2}C_{O}C_{D}(t)C_{E}(t) - k_{3}C_{O}C_{D}(t)C_{A}(t) + k_{4}C_{O}C_{M}(t)C_{E}(t)
+    \\
+    \frac{d}{dt}C_{M}(t) & = k_{3}C_{O}C_{D}(t)C_{A}(t) - k_{4}C_{O}C_{M}(t)C_{E}(t) - k_{5}C_{O}C_{M}(t)C_{A}(t) + k_{6}C_{O}C_{G}(t)C_{E}(t)
+    \\
+    \frac{d}{dt}C_{G}(t) & = k_{5}C_{O}C_{M}(t)C_{A}(t) - k_{6}C_{O}C_{G}(t)C_{E}(t)
+    \\
+    \frac{d}{dt}C_{A}(t) & = -k_{1}C_{O}C_{T}(t)C_{A}(t)+k_{2}C_{O}C_{D}(t)C_{E}(t)-k_{3}C_{O}C_{D}(t)C_{A}(t) + k_{4}C_{O}C_{M}(t)C_{E}(t) - k_{5}C_{O}C_{M}(t)C_{A}(t) + k_{6}C_{O}C_{G}(t)C_{E}(t)
+    \\
+    \frac{d}{dt}C_{E}(t) & = k_{1}C_{O}C_{T}(t)C_{A}(t)-k_{2}C_{O}C_{D}(t)C_{E}(t)+k_{3}C_{O}C_{D}(t)C_{A}(t) - k_{4}C_{O}C_{M}(t)C_{E}(t) + k_{5}C_{O}C_{M}(t)C_{A}(t) - k_{6}C_{O}C_{G}(t)C_{E}(t)
+  \end{aligned}
+  \label{eq:BD_1_0}
+\end{equation}

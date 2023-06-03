@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "dae-equiv-judge"
+version = "0.1.0"
+description = ""
+authors = ["stktu <34226464+stktu@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "dae_equiv_judge"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sympy = "1.7.1"
+antlr4-python3-runtime = "4.7"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.3.0"
+flake8 = "^6.0.0"
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

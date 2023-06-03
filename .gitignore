@@ -1,0 +1,14 @@
+.DS_Store
+
+.python_version
+
+.vscode/
+data/
+notebook/
+output/
+__pycache__/
+.ipynb_checkpoints/
+.idea/
+*.prop
+*.props
+*.pkl

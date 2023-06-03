@@ -1,0 +1,30 @@
+\begin{equation}
+  \begin{aligned}
+    r_{1}                & = k_{1}C_{O}C_{T}(t)C_{A}(t)
+    \\
+    r_{2}                & = k_{2}C_{O}C_{D}(t)C_{E}(t)
+    \\
+    r_{3}                & = k_{3}C_{O}C_{D}(t)C_{A}(t)
+    \\
+    r_{4}                & = k_{4}C_{O}C_{M}(t)C_{E}(t)
+    \\
+    r_{5}                & = k_{5}C_{O}C_{M}(t)C_{A}(t)
+    \\
+    r_{6}                & = k_{6}C_{O}C_{G}(t)C_{E}(t)
+    \\
+    k_{i}                & = a_{i} \exp(-\frac{E_{i}}{R T_{R}})
+    \\
+    \frac{d}{dt}C_{T}(t) & = - r_{1} + r_{2}
+    \\
+    \frac{d}{dt}C_{D}(t) & = r_{1} - r_{2} - r_{3} + r_{4}
+    \\
+    \frac{d}{dt}C_{M}(t) & = r_{3} - r_{4} - r_{5} + r_{6}
+    \\
+    \frac{d}{dt}C_{G}(t) & = r_{5} - r_{6}
+    \\
+    \frac{d}{dt}C_{A}(t) & = - r_{1} + r_{2} - r_{3} + r_{4} - r_{5} + r_{6}
+    \\
+    \frac{d}{dt}C_{E}(t) & = r_{1} - r_{2} + r_{3} - r_{4} + r_{5} - r_{6}
+  \end{aligned}
+  \label{eq:biodiesel02_1}
+\end{equation}
