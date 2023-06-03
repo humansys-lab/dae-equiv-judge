@@ -44,7 +44,3 @@ It does not work well when a single equation spans multiple lines or when a sing
 Copyright 2023 Shota KATO
 
 This software is licenced under [the MIT License](./LICENSE)
-
----
-
-Shota KATO
